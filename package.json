@@ -1,0 +1,18 @@
+{
+  "name": "oficina",
+  "version": "1.0.0",
+  "description": "OFICINA — Quiniela Mundial FIFA 2026",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "connect-pg-simple": "^9.0.1",
+    "pg": "^8.11.5"
+  }
+}
